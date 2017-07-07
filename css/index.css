@@ -1,0 +1,56 @@
+/*导航栏相关*/
+#header{
+	background-color: #252525;
+}
+#header>h1{
+	color:white;
+}
+#header>a{
+	color:white;
+}
+
+/*标签栏相关*/
+.zixun{
+	background-image: url(../img/zixun.png);
+	background-size: cover;
+}
+.shipin{
+	background-image: url(../img/shipin.png);
+	background-size: cover;
+}
+.yingxiong{
+	background-image: url(../img/yingxiong.png);
+	background-size: cover;
+}
+.lianmeng{
+	background-image: url(../img/lianmeng.png);
+	background-size: cover;
+}
+.gengduo{
+	background-image: url(../img/gengduo.png);
+	background-size: cover;
+}
+.mui-active .zixun{
+	background-image: url(../img/zixunactive.png);
+}
+.mui-active .shipin{
+	background-image:url(../img/shipinactive.png);
+}
+.mui-active .yingxiong{
+	background-image: url(../img/yingxiongactive.png);
+}
+.mui-active .lianmeng{
+	background-image:url(../img/lianmengactive.png);
+}
+.mui-active .gengduo{
+	background-image:url(../img/gengduoactive.png);
+}
+.mui-bar .mui-tab-label{
+	color: white;
+}
+.mui-bar{
+	background-color: #252525;
+}
+.mui-bar .mui-active{
+	background-color: #1E1B1D;
+}
